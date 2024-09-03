@@ -24,8 +24,9 @@ class HTMLPipeline:
 
 if __name__ == '__main__':
     pathes = [
+        # 这两个txt中一共5240条记录
         "tiktok_test/pages/tk_product_seeds.txt",
-        "tiktok_test/pages/tk_product_seeds-1.txt",
-        ]
+        "tiktok_test/pages/tk_product_seeds-1.txt"
+    ]
     
     HTMLPipeline(pathes).test_product_pipeline()
